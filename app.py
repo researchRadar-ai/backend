@@ -4,6 +4,8 @@ from flask import Flask, request, jsonify
 import pysondb
 from metaphor_python import Metaphor
 import requests
+
+# from recommendersystem import inference
 import xml.etree.ElementTree as ET
 
 app = Flask(__name__)
@@ -64,6 +66,9 @@ def list_papers():
             if paper["saved"] == True and paper["read"] == False:
                 new.append(paper)
         proj_papers = new
+    elif data["type"] == "recommend":
+        # sort prod_paper by rating descending
+        proj_papers = sorted(proj_papers, key=lambda x: x["rating"], reverse=True)[:10]
 
     # reformat and get paper data
     output = []
@@ -160,12 +165,43 @@ def add_paper_to_project(project_id, paper_id):  # paper_id is arxiv id
     projects.updateById(project_id, {"papers": old_papers})
 
 
+@app.route("/api/engagement/update", methods=["POST"])
+def update_engagement():
+    metric, value, project_id, paper_id = (
+        request.get_json()["metric"],
+        request.get_json()["value"],
+        request.get_json()["project_id"],
+        request.get_json()["paper_id"],
+    )
+    db_paper_id = projPapers.getByQuery(
+        {"paper_id": paper_id, "project_id": project_id}
+    )[0]["id"]
+
+    if metric == "click":
+        upd_engagement = projPapers.getById(db_paper_id)["engagement"]
+        upd_engagement["click_count"] += 1
+        projPapers.updateById(db_paper_id, {"engagement": upd_engagement})
+    elif metric == "view":
+        upd_engagement = projPapers.getById(db_paper_id)["engagement"]
+        upd_engagement["view_duration"] += value
+        projPapers.updateById(db_paper_id, {"engagement": upd_engagement})
+    elif metric == "read":
+        projPapers.updateById(db_paper_id, {"read": value})
+    elif metric == "save":
+        projPapers.updateById(db_paper_id, {"saved": value})
+
+    # update ML
+    # await inference.update_model(user, paper)
+    # currently running in a loop in the background
+
+
 @app.route("/api/search", methods=["GET"])
 def search():
     user_query = request.args.get("query")
     project_id = request.args.get("project_id")
-    if not user_query:
-        return jsonify({"error": "No query provided"}), 400
+    print(request.args)
+    # if not user_query:
+    #     return jsonify({"error": "No query provided"}), 400
 
     response = metaphor.search(
         user_query,

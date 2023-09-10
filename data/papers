@@ -432,6 +432,137 @@
          "year": "2013",
          "citations": 10,
          "id": 174486646159042665
+      },
+      {
+         "paper_id": "1709.03824",
+         "title": "Four revolutions in physics and the second quantum revolution -- a\n  unification of force and matter by quantum information",
+         "authors": [
+            "Xiao-Gang Wen"
+         ],
+         "abstract": "Newton's mechanical revolution unifies the motion of planets in the sky and\nfalling of apple on earth. Maxwell's electromagnetic revolution unifies\nelectricity, magnetism, and light. Einstein's relativity revolution unifies\nspace with time, and gravity with space-time distortion. The quantum revolution\nunifies particle with waves, and energy with frequency. Each of those\nrevolution changes our world view. In this article, we will describe a\nrevolution that is happening now: the second quantum revolution which unifies\nmatter/space with information. In other words, the new world view suggests that\nelementary particles (the bosonic force particles and fermionic matter\nparticles) all originated from quantum information (qubits): they are\ncollective excitations of an entangled qubit ocean that corresponds to our\nspace. The beautiful geometric Yang-Mills gauge theory and the strange Fermi\nstatistics of matter particles now have a common algebraic quantum\ninformational origin.",
+         "year": "2017",
+         "citations": 7,
+         "id": 401286131054780776
+      },
+      {
+         "paper_id": "2308.12297",
+         "title": "2022 Nobel Prize in Physics and the End of Mechanistic Materialism",
+         "authors": [
+            "Igor Salom"
+         ],
+         "abstract": "The ideas and results that are in the background of the 2022 Nobel Prize in\nphysics had an immense impact on our understanding of reality. Therefore, it is\ncrucial that these implications reach also the general public, not only the\nscientists in the related fields of quantum mechanics. The purpose of this\nreview is to attempt to elucidate these revolutionary changes in our worldview\nthat were eventually acknowledged also by the Nobel's committee, and to do it\nwith very few references to mathematical details (which could be even ignored\nwithout undermining the take-away essence of the text).\n  We first look into the foundational disputes between Einstein and Bohr about\nthe nature of quantum mechanics, which culminated in the so-called EPR paradox\n-- the main impetus for all the research that would ensue in this context.\nNext, we try to explain the statement of the famous Bell's theorem -- the\ntheorem that relocated the Einstain-Bohr discussions from the realm of\nphilosophy and metaphysics to hard-core physics verifiable by experiments (we\nalso give a brief derivation of the theorem's proof). Then we overview the\nexperimental work of the last year's laureates, that had the final say about\nwho was right in the debate. The outcome of these experiments forced us to\nprofoundly revise our understanding of the universe. Finally, we discuss in\nmore detail the implications of such outcomes, and what are the possible ways\nthat our worldviews can be modified to account for the experimental facts. As\nwe will see, the standard mechanist picture of the universe is no longer a\nviable option, and can be never again. Nowadays, we know this with certainty\nunusual for physics, that only a strict mathematical theorem could provide.",
+         "year": "2023",
+         "citations": 0,
+         "id": 470167268712878696
+      },
+      {
+         "paper_id": "2209.10038",
+         "title": "Quantum Fluid Dynamics on the Hypersphere",
+         "authors": [
+            "Stuart Heinrich"
+         ],
+         "abstract": "It is known from quantum mechanics that particles are associated with wave\nfunctions, and that the probability of observing a particle at some future\nlocation is proportional to the squared modulus of the amplitude of its wave\nfunction. Although this statistical relationship is well quantified, the\ninterpretations have remained controversial, with many split between the\nclassical Copenhagen interpretation and some variation of the de Broglie-Bohm\npilot wave models. Recent experiments with Hydrodynamic Quantum Analogs (HQAs)\nhave demonstrated that droplets of real fluid may achieve stable dynamical\nstates, where interaction of the droplets with their own ripples results in\nmotion analogous to the motion of particles subject to the guiding equation\nunder the pilot wave models. Indeed, many effects previously thought to be\nexclusively quantum have now been observed as emergent phenomena in these\nmacroscopic HQAs. This has motivated us to explore the possibility that quantum\nmechanics may actually be the result of fluid dynamics on some real quantum\nscale fluid. In this paper, we show that if there is a real quantum scale fluid\nhaving dynamics analogous to the fluid in HQAs, then this fluid must be a\nsuperfluid, and the dynamics of that fluid must take place on the surface of a\n4-dimensional hypersphere. Under the influence of cosmological inflation, we\nfurther show that these bouncing droplets would have the illusion of a property\nanalogous to rest mass, and that the principles of inertia, momentum,\nmass-energy equivalence, general relativity, the uncertainty principle and the\nappearance of a time-like dimension can all be derived for droplets as purely\nemergent phenomena from the fluid dynamics of this system. As such, we believe\nthat this model merits consideration as a potential foundation for a new\nunifying theory of physics at all scales.",
+         "year": "2022",
+         "citations": 0,
+         "id": 297951440818086868
+      },
+      {
+         "paper_id": "2212.10734",
+         "title": "A brief introduction to quantum algorithms",
+         "authors": [
+            "Shihao Zhang",
+            "Lvzhou Li"
+         ],
+         "abstract": "Quantum algorithms are demonstrated to outperform classical algorithms for\ncertain problems and thus are promising candidates for efficient information\nprocessing. Herein we aim to provide a brief and popular introduction to\nquantum algorithms for both the academic community and the general public with\ninterest. We start from elucidating quantum parallelism, the basic framework of\nquantum algorithms and the difficulty of quantum algorithm design. Then we\nmainly focus on a historical overview of progress in quantum algorithm research\nover the past three to four decades. Finally, we clarify two common questions\nabout the study of quantum algorithms, hoping to stimulate readers for further\nexploration.",
+         "year": "2022",
+         "citations": 8,
+         "id": 326979581248922575
+      },
+      {
+         "paper_id": "1608.00263",
+         "title": "Characterizing Quantum Supremacy in Near-Term Devices",
+         "authors": [
+            "Sergio Boixo",
+            "Sergei V. Isakov",
+            "Vadim N. Smelyanskiy",
+            "Ryan Babbush",
+            "Nan Ding",
+            "Zhang Jiang",
+            "Michael J. Bremner",
+            "John M. Martinis",
+            "Hartmut Neven"
+         ],
+         "abstract": "A critical question for the field of quantum computing in the near future is\nwhether quantum devices without error correction can perform a well-defined\ncomputational task beyond the capabilities of state-of-the-art classical\ncomputers, achieving so-called quantum supremacy. We study the task of sampling\nfrom the output distributions of (pseudo-)random quantum circuits, a natural\ntask for benchmarking quantum computers. Crucially, sampling this distribution\nclassically requires a direct numerical simulation of the circuit, with\ncomputational cost exponential in the number of qubits. This requirement is\ntypical of chaotic systems. We extend previous results in computational\ncomplexity to argue more formally that this sampling task must take exponential\ntime in a classical computer. We study the convergence to the chaotic regime\nusing extensive supercomputer simulations, modeling circuits with up to 42\nqubits - the largest quantum circuits simulated to date for a computational\ntask that approaches quantum supremacy. We argue that while chaotic states are\nextremely sensitive to errors, quantum supremacy can be achieved in the\nnear-term with approximately fifty superconducting qubits. We introduce cross\nentropy as a useful benchmark of quantum circuits which approximates the\ncircuit fidelity. We show that the cross entropy can be efficiently measured\nwhen circuit simulations are available. Beyond the classically tractable\nregime, the cross entropy can be extrapolated and compared with theoretical\nestimates of circuit fidelity to define a practical quantum supremacy test.",
+         "year": "2016",
+         "citations": 890,
+         "id": 334877313546260716
+      },
+      {
+         "paper_id": "1905.07240",
+         "title": "Quantum Computing: An Overview Across the System Stack",
+         "authors": [
+            "Salonik Resch",
+            "Ulya R. Karpuzcu"
+         ],
+         "abstract": "Quantum computers, if fully realized, promise to be a revolutionary\ntechnology. As a result, quantum computing has become one of the hottest areas\nof research in the last few years. Much effort is being applied at all levels\nof the system stack, from the creation of quantum algorithms to the development\nof hardware devices. The quantum age appears to be arriving sooner rather than\nlater as commercially useful small-to-medium sized machines have already been\nbuilt. However, full-scale quantum computers, and the full-scale algorithms\nthey would perform, remain out of reach for now. It is currently uncertain how\nthe first such computer will be built. Many different technologies are\ncompeting to be the first scalable quantum computer.",
+         "year": "2019",
+         "citations": 41,
+         "id": 271786201010318166
+      },
+      {
+         "paper_id": "1708.03684v2",
+         "title": "An Introduction to Quantum Computing, Without the Physics",
+         "authors": [
+            "Giacomo Nannicini"
+         ],
+         "abstract": "This paper is a gentle but rigorous introduction to quantum computing\nintended for computer scientists. Starting from a small set of assumptions on\nthe behavior of quantum computing devices, we analyze their main\ncharacteristics, stressing the differences with classical computers, and\nfinally describe two well-known algorithms (Simon's algorithm and Grover's\nalgorithm) using the formalism developed in previous sections. This paper does\nnot touch on the physics of the devices, and therefore does not require any\nnotion of quantum mechanics.",
+         "year": "2017",
+         "citations": 0,
+         "id": 109213750816790261
+      },
+      {
+         "paper_id": "1708.03684",
+         "title": "An Introduction to Quantum Computing, Without the Physics",
+         "authors": [
+            "Giacomo Nannicini"
+         ],
+         "abstract": "This paper is a gentle but rigorous introduction to quantum computing\nintended for discrete mathematicians. Starting from a small set of assumptions\non the behavior of quantum computing devices, we analyze their main\ncharacteristics, stressing the differences with classical computers, and\nfinally describe two well-known algorithms (Simon's algorithm and Grover's\nalgorithm) using the formalism developed in previous sections. This paper does\nnot touch on the physics of the devices, and therefore does not require any\nnotion of quantum mechanics. Numerical examples on an implementation of\nGrover's algorithm using open-source software are provided.",
+         "year": "2017",
+         "citations": 21,
+         "id": 526410659332212844
+      },
+      {
+         "paper_id": "0708.0261",
+         "title": "An Introduction to Quantum Computing",
+         "authors": [
+            "Noson S. Yanofsky"
+         ],
+         "abstract": "Quantum Computing is a new and exciting field at the intersection of\nmathematics, computer science and physics. It concerns a utilization of quantum\nmechanics to improve the efficiency of computation. Here we present a gentle\nintroduction to some of the ideas in quantum computing. The paper begins by\nmotivating the central ideas of quantum mechanics and quantum computation with\nsimple toy models. From there we move on to a formal presentation of the small\nfraction of (finite dimensional) quantum mechanics that we will need for basic\nquantum computation. Central notions of quantum architecture (qubits and\nquantum gates) are described. The paper ends with a presentation of one of the\nsimplest quantum algorithms: Deutsch's algorithm. Our presentation demands\nneither advanced mathematics nor advanced physics.",
+         "year": "2007",
+         "citations": 8,
+         "id": 591049196143224732
+      },
+      {
+         "paper_id": "1501.00011",
+         "title": "Why now is the right time to study quantum computing",
+         "authors": [
+            "Aram W. Harrow"
+         ],
+         "abstract": "Quantum computing is a good way to justify difficult physics experiments. But\nuntil quantum computers are built, do computer scientists need to know anything\nabout quantum information? In fact, quantum computing is not merely a recipe\nfor new computing devices, but a new way of looking at the world that has been\nastonishingly intellectually productive. In this article, I'll talk about where\nquantum computing came from, what it is, and what we can learn from it.",
+         "year": "2014",
+         "citations": 0,
+         "id": 149840682763860773
+      },
+      {
+         "paper_id": "2306.09388",
+         "title": "A Short Introduction to Quantum Computing for Physicists",
+         "authors": [
+            "Oswaldo Zapata"
+         ],
+         "abstract": "These notes provide an introduction to standard topics on quantum computation\nand communication for those who already have a basic knowledge of quantum\nmechanics. The main target audience are professional physicists as well as\nadvanced students of physics; however, engineers and computer scientists may\nalso benefit from them.",
+         "year": "2023",
+         "citations": 0,
+         "id": 152979043943888539
       }
    ]
 }
