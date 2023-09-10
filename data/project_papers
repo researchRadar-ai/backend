@@ -1,0 +1,134 @@
+{
+   "data": [
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1709.02779",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 334248378194197446
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1611.09347",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 466668228630148556
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1611.09347v2",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 299339461183036410
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1708.09757",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 243525179657164332
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1709.02779",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 295572817490642950
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1707.08561v1",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 336774254293039233
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1708.09757v1",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 240766594141263176
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "2208.08068",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 610070022844378984
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1710.03599v1",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 0,
+            "view_duration": 0
+         },
+         "saved": false,
+         "read": false,
+         "id": 139918392647881033
+      },
+      {
+         "project_id": 248339262434490914,
+         "paper_id": "1908.04480v2",
+         "rating": 1,
+         "annotations": {},
+         "engagement": {
+            "click_count": 1,
+            "view_duration": 30
+         },
+         "saved": true,
+         "read": true,
+         "id": 136046321968559234
+      }
+   ]
+}

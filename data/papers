@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "paper_id": "1709.02779",
+         "title": "Machine learning \\& artificial intelligence in the quantum domain",
+         "authors": [
+            "Vedran Dunjko",
+            "Hans J. Briegel"
+         ],
+         "abstract": "Quantum information technologies, and intelligent learning systems, are both\nemergent technologies that will likely have a transforming impact on our\nsociety. The respective underlying fields of research -- quantum information\n(QI) versus machine learning (ML) and artificial intelligence (AI) -- have\ntheir own specific challenges, which have hitherto been investigated largely\nindependently. However, in a growing body of recent work, researchers have been\nprobing the question to what extent these fields can learn and benefit from\neach other. QML explores the interaction between quantum computing and ML,\ninvestigating how results and techniques from one field can be used to solve\nthe problems of the other. Recently, we have witnessed breakthroughs in both\ndirections of influence. For instance, quantum computing is finding a vital\napplication in providing speed-ups in ML, critical in our \"big data\" world.\nConversely, ML already permeates cutting-edge technologies, and may become\ninstrumental in advanced quantum technologies. Aside from quantum speed-up in\ndata analysis, or classical ML optimization used in quantum experiments,\nquantum enhancements have also been demonstrated for interactive learning,\nhighlighting the potential of quantum-enhanced learning agents. Finally, works\nexploring the use of AI for the very design of quantum experiments, and for\nperforming parts of genuine research autonomously, have reported their first\nsuccesses. Beyond the topics of mutual enhancement, researchers have also\nbroached the fundamental issue of quantum generalizations of ML/AI concepts.\nThis deals with questions of the very meaning of learning and intelligence in a\nworld that is described by quantum mechanics. In this review, we describe the\nmain ideas, recent developments, and progress in a broad spectrum of research\ninvestigating machine learning and artificial intelligence in the quantum\ndomain.",
+         "year": "2017",
+         "citations": 607,
+         "id": 120037071591725713
+      },
+      {
+         "paper_id": "1611.09347",
+         "title": "Quantum Machine Learning",
+         "authors": [
+            "Jacob Biamonte",
+            "Peter Wittek",
+            "Nicola Pancotti",
+            "Patrick Rebentrost",
+            "Nathan Wiebe",
+            "Seth Lloyd"
+         ],
+         "abstract": "Fuelled by increasing computer power and algorithmic advances, machine\nlearning techniques have become powerful tools for finding patterns in data.\nSince quantum systems produce counter-intuitive patterns believed not to be\nefficiently produced by classical systems, it is reasonable to postulate that\nquantum computers may outperform classical computers on machine learning tasks.\nThe field of quantum machine learning explores how to devise and implement\nconcrete quantum software that offers such advantages. Recent work has made\nclear that the hardware and software challenges are still considerable but has\nalso opened paths towards solutions.",
+         "year": "2016",
+         "citations": 1253,
+         "id": 298067895225846361
+      },
+      {
+         "paper_id": "1611.09347v2",
+         "title": "Quantum Machine Learning",
+         "authors": [
+            "Jacob Biamonte",
+            "Peter Wittek",
+            "Nicola Pancotti",
+            "Patrick Rebentrost",
+            "Nathan Wiebe",
+            "Seth Lloyd"
+         ],
+         "abstract": "Fuelled by increasing computer power and algorithmic advances, machine\nlearning techniques have become powerful tools for finding patterns in data.\nSince quantum systems produce counter-intuitive patterns believed not to be\nefficiently produced by classical systems, it is reasonable to postulate that\nquantum computers may outperform classical computers on machine learning tasks.\nThe field of quantum machine learning explores how to devise and implement\nconcrete quantum software that offers such advantages. Recent work has made\nclear that the hardware and software challenges are still considerable but has\nalso opened paths towards solutions.",
+         "year": "2016",
+         "citations": 0,
+         "id": 269394106365117353
+      },
+      {
+         "paper_id": "1708.09757",
+         "title": "Opportunities and challenges for quantum-assisted machine learning in\n  near-term quantum computers",
+         "authors": [
+            "Alejandro Perdomo-Ortiz",
+            "Marcello Benedetti",
+            "John Realpe-Gómez",
+            "Rupak Biswas"
+         ],
+         "abstract": "With quantum computing technologies nearing the era of commercialization and\nquantum supremacy, machine learning (ML) appears as one of the promising\n\"killer\" applications. Despite significant effort, there has been a disconnect\nbetween most quantum ML proposals, the needs of ML practitioners, and the\ncapabilities of near-term quantum devices to demonstrate quantum enhancement in\nthe near future. In this contribution to the focus collection on \"What would\nyou do with 1000 qubits?\", we provide concrete examples of intractable ML tasks\nthat could be enhanced with near-term devices. We argue that to reach this\ntarget, the focus should be on areas where ML researchers are struggling, such\nas generative models in unsupervised and semi-supervised learning, instead of\nthe popular and more tractable supervised learning techniques. We also\nhighlight the case of classical datasets with potential quantum-like\nstatistical correlations where quantum models could be more suitable. We focus\non hybrid quantum-classical approaches and illustrate some of the key\nchallenges we foresee for near-term implementations. Finally, we introduce the\nquantum-assisted Helmholtz machine (QAHM), an attempt to use near-term quantum\ndevices to tackle high-dimensional datasets of continuous variables. Instead of\nusing quantum computers to assist deep learning, as previous approaches do, the\nQAHM uses deep learning to extract a low-dimensional binary representation of\ndata, suitable for relatively small quantum processors which can assist the\ntraining of an unsupervised generative model. Although we illustrate this\nconcept on a quantum annealer, other quantum platforms could benefit as well\nfrom this hybrid quantum-classical framework.",
+         "year": "2017",
+         "citations": 158,
+         "id": 164575682611084220
+      },
+      {
+         "paper_id": "1709.02779",
+         "title": "Machine learning \\& artificial intelligence in the quantum domain",
+         "authors": [
+            "Vedran Dunjko",
+            "Hans J. Briegel"
+         ],
+         "abstract": "Quantum information technologies, and intelligent learning systems, are both\nemergent technologies that will likely have a transforming impact on our\nsociety. The respective underlying fields of research -- quantum information\n(QI) versus machine learning (ML) and artificial intelligence (AI) -- have\ntheir own specific challenges, which have hitherto been investigated largely\nindependently. However, in a growing body of recent work, researchers have been\nprobing the question to what extent these fields can learn and benefit from\neach other. QML explores the interaction between quantum computing and ML,\ninvestigating how results and techniques from one field can be used to solve\nthe problems of the other. Recently, we have witnessed breakthroughs in both\ndirections of influence. For instance, quantum computing is finding a vital\napplication in providing speed-ups in ML, critical in our \"big data\" world.\nConversely, ML already permeates cutting-edge technologies, and may become\ninstrumental in advanced quantum technologies. Aside from quantum speed-up in\ndata analysis, or classical ML optimization used in quantum experiments,\nquantum enhancements have also been demonstrated for interactive learning,\nhighlighting the potential of quantum-enhanced learning agents. Finally, works\nexploring the use of AI for the very design of quantum experiments, and for\nperforming parts of genuine research autonomously, have reported their first\nsuccesses. Beyond the topics of mutual enhancement, researchers have also\nbroached the fundamental issue of quantum generalizations of ML/AI concepts.\nThis deals with questions of the very meaning of learning and intelligence in a\nworld that is described by quantum mechanics. In this review, we describe the\nmain ideas, recent developments, and progress in a broad spectrum of research\ninvestigating machine learning and artificial intelligence in the quantum\ndomain.",
+         "year": "2017",
+         "citations": 607,
+         "id": 298847772057428490
+      },
+      {
+         "paper_id": "1707.08561v1",
+         "title": "Quantum machine learning: a classical perspective",
+         "authors": [
+            "Carlo Ciliberto",
+            "Mark Herbster",
+            "Alessandro Davide Ialongo",
+            "Massimiliano Pontil",
+            "Andrea Rocchetto",
+            "Simone Severini",
+            "Leonard Wossnig"
+         ],
+         "abstract": "Recently, increased computational power and data availability, as well as\nalgorithmic advances, have led machine learning techniques to impressive\nresults in regression, classification, data-generation and reinforcement\nlearning tasks. Despite these impressive results, the proximity to the physical\nlimits of chip fabrication alongside the increasing size of datasets are\nmotivating a growing number of researchers to explore the possibility of\nharnessing the power of quantum computation to speed-up classical machine\nlearning algorithms. Here we review the literature in quantum machine learning\nand discuss perspectives for a mixed readership of classical machine learning\nand quantum computation experts. Particular emphasis will be placed on\nclarifying the limitations of quantum algorithms, how they compare with their\nbest classical counterparts and why quantum resources are expected to provide\nadvantages for learning problems. Learning in the presence of noise and certain\ncomputationally hard problems in machine learning are identified as promising\ndirections for the field. Practical questions, like how to upload classical\ndata into quantum form, will also be addressed.",
+         "year": "2017",
+         "citations": 0,
+         "id": 760619906601932014
+      },
+      {
+         "paper_id": "1708.09757v1",
+         "title": "Opportunities and challenges for quantum-assisted machine learning in\n  near-term quantum computers",
+         "authors": [
+            "Alejandro Perdomo-Ortiz",
+            "Marcello Benedetti",
+            "John Realpe-Gómez",
+            "Rupak Biswas"
+         ],
+         "abstract": "With quantum computing technologies nearing the era of commercialization and\nquantum supremacy, machine learning (ML) appears as one of the promising\n\"killer\" applications. Despite significant effort, there has been a disconnect\nbetween most quantum machine learning proposals, the needs of ML practitioners,\nand the capabilities of near-term quantum devices to demonstrate quantum\nenhancement in the near future. In this contribution to the focus collection on\n\"What would you do with 1000 qubits?\", we provide concrete examples of\nintractable ML tasks that could be enhanced with near-term devices. We argue\nthat to reach this target, the focus should be on areas where ML researchers\nare still struggling, such as generative models in unsupervised or\nsemisupervised learning, instead of the popular and much more tractable ML\ntechniques. We also highlight the case of classical datasets with potential\nquantum-like statistical correlations where quantum models could be more\nsuitable. We focus on hybrid quantum-classical approaches and illustrate some\nof the key challenges we foresee for near-term implementations. Finally, we\nintroduce the quantum-assisted Helmholtz machine (QAHM); an attempt to use\nnear-term quantum devices to tackle high-resolution datasets on continuous\nvariables. Instead of using quantum computers to assist deep learning, as\nprevious approaches do, the QAHM uses deep learning to extract a\nlow-dimensional binary representation of data, suitable for relatively small\nquantum processors which can assist the training of an unsupervised generative\nmodel. Although we illustrate this concept on a quantum annealer, other quantum\nplatforms could benefit as well from this hybrid quantum-classical framework.",
+         "year": "2017",
+         "citations": 0,
+         "id": 273352529116573117
+      },
+      {
+         "paper_id": "2208.08068",
+         "title": "Quantum Bayesian Computation",
+         "authors": [
+            "Nick Polson",
+            "Vadim Sokolov",
+            "Jianeng Xu"
+         ],
+         "abstract": "Quantum Bayesian Computation (QBC) is an emerging field that levers the\ncomputational gains available from quantum computers to provide an exponential\nspeed-up in Bayesian computation. Our paper adds to the literature in two ways.\nFirst, we show how von Neumann quantum measurement can be used to simulate\nmachine learning algorithms such as Markov chain Monte Carlo (MCMC) and Deep\nLearning (DL) that are fundamental to Bayesian learning. Second, we describe\ndata encoding methods needed to implement quantum machine learning including\nthe counterparts to traditional feature extraction and kernel embeddings\nmethods. Our goal then is to show how to apply quantum algorithms directly to\nstatistical machine learning problems. On the theoretical side, we provide\nquantum versions of high dimensional regression, Gaussian processes (Q-GP) and\nstochastic gradient descent (Q-SGD). On the empirical side, we apply a Quantum\nFFT model to Chicago housing data. Finally, we conclude with directions for\nfuture research.",
+         "year": "2022",
+         "citations": 0,
+         "id": 187978960188987989
+      },
+      {
+         "paper_id": "1710.03599v1",
+         "title": "A Quantum Recurrent Neural Network",
+         "authors": [
+            "Patrick Rebentrost",
+            "Thomas R. Bromley",
+            "Christian Weedbrook",
+            "Seth Lloyd"
+         ],
+         "abstract": "Quantum computing allows for the potential of significant advancements in\nboth the speed and the capacity of widely-used machine learning algorithms. In\nthis paper, we introduce quantum algorithms for a recurrent neural network, the\nHopfield network, which can be used for pattern recognition, reconstruction,\nand optimization as a realization of a content addressable memory system. We\nshow that an exponentially large network can be stored in a polynomial number\nof quantum bits by encoding the network into the amplitudes of quantum states.\nBy introducing a new classical technique for operating such a network, we can\nleverage quantum techniques to obtain a quantum computational complexity that\nis logarithmic in the dimension of the data. This potentially yields an\nexponential speed-up in comparison to classical approaches. We present an\napplication of our method as a genetic sequence recognizer.",
+         "year": "2017",
+         "citations": 0,
+         "id": 836754535856873571
+      },
+      {
+         "paper_id": "1908.04480v2",
+         "title": "Quantum adiabatic machine learning with zooming",
+         "authors": [
+            "Alexander Zlokapa",
+            "Alex Mott",
+            "Joshua Job",
+            "Jean-Roch Vlimant",
+            "Daniel Lidar",
+            "Maria Spiropulu"
+         ],
+         "abstract": "Recent work has shown that quantum annealing for machine learning, referred\nto as QAML, can perform comparably to state-of-the-art machine learning methods\nwith a specific application to Higgs boson classification. We propose QAML-Z, a\nnovel algorithm that iteratively zooms in on a region of the energy surface by\nmapping the problem to a continuous space and sequentially applying quantum\nannealing to an augmented set of weak classifiers. Results on a programmable\nquantum annealer show that QAML-Z matches classical deep neural network\nperformance at small training set sizes and reduces the performance margin\nbetween QAML and classical deep neural networks by almost 50% at large training\nset sizes, as measured by area under the ROC curve. The significant improvement\nof quantum annealing algorithms for machine learning and the use of a discrete\nquantum algorithm on a continuous optimization problem both opens a new class\nof problems that can be solved by quantum annealers and suggests the approach\nin performance of near-term quantum machine learning towards classical\nbenchmarks.",
+         "year": "2019",
+         "citations": 0,
+         "id": 257187469570733219
+      }
+   ]
+}
