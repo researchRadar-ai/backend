@@ -27,21 +27,25 @@ def create_project():
     }
     pid = projects.add(project)  # returns id
 
-    return jsonify({"project_id": pid})
+    return jsonify({"project_id": str(pid)})
 
 
 @app.route("/api/project/list_projects", methods=["GET"])
 def list_projects():
     resp = projects.getAll()
     for proj in resp:
+        proj["id"] = str(proj["id"])
         del proj["papers"]
     return jsonify(resp)
 
 
-@app.route("/api/project/list_papers", methods=["GET"])
+@app.route("/api/project/list_papers", methods=["POST"])
 def list_papers():
     data = request.get_json()
-    proj_papers = projPapers.getByQuery({"project_id": data["project_id"]})
+
+    print(data)
+
+    proj_papers = projPapers.getByQuery({"project_id": int(data["project_id"])})
 
     if data["type"] == "saved":
         proj_papers = list(
@@ -62,7 +66,7 @@ def list_papers():
 
         del paper_data["paper_id"]
         del paper_data["citations"]
-        paper_data["journal"] = "bullshit"
+        paper_data["journal"] = "Unknown"
         paper_data["authors"] = ", ".join(paper_data["authors"])
 
         print(paper["read"], paper["saved"])
