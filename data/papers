@@ -143,6 +143,295 @@
          "year": "2019",
          "citations": 0,
          "id": 177560608553895072
+      },
+      {
+         "paper_id": "1312.4455",
+         "title": "The universe as quantum computer",
+         "authors": [
+            "Seth Lloyd"
+         ],
+         "abstract": "This article reviews the history of digital computation, and investigates\njust how far the concept of computation can be taken. In particular, I address\nthe question of whether the universe itself is in fact a giant computer, and if\nso, just what kind of computer it is. I will show that the universe can be\nregarded as a giant quantum computer. The quantum computational model of the\nuniverse explains a variety of observed phenomena not encompassed by the\nordinary laws of physics. In particular, the model shows that the the quantum\ncomputational universe automatically gives rise to a mix of randomness and\norder, and to both simple and complex systems.",
+         "year": "2013",
+         "citations": 0,
+         "id": 205079175082933215
+      },
+      {
+         "paper_id": "1608.00263v2",
+         "title": "Characterizing Quantum Supremacy in Near-Term Devices",
+         "authors": [
+            "Sergio Boixo",
+            "Sergei V. Isakov",
+            "Vadim N. Smelyanskiy",
+            "Ryan Babbush",
+            "Nan Ding",
+            "Zhang Jiang",
+            "John M. Martinis",
+            "Hartmut Neven"
+         ],
+         "abstract": "A critical question for the field of quantum computing in the near future is\nwhether quantum devices without error correction can perform a well-defined\ncomputational task beyond the capabilities of state-of-the-art classical\ncomputers, achieving so-called quantum supremacy. We study the task of sampling\nfrom the output distributions of (pseudo-)random quantum circuits, a natural\ntask for benchmarking quantum computers. Crucially, sampling this distribution\nclassically requires a direct numerical simulation of the circuit, with\ncomputational cost exponential in the number of qubits. This requirement is\ntypical of chaotic systems. We extend previous results in computational\ncomplexity to argue more formally that this sampling task must take exponential\ntime in a classical computer. We study the convergence to the chaotic regime\nusing extensive supercomputer simulations, modeling circuits with up to 42\nqubits - the largest quantum circuits simulated to date for a computational\ntask that approaches quantum supremacy. We argue that while chaotic states are\nextremely sensitive to errors, quantum supremacy can be achieved in the\nnear-term with approximately fifty superconducting qubits. We introduce cross\nentropy as a useful benchmark of quantum circuits which approximates the\ncircuit fidelity. We show that the cross entropy can be efficiently measured\nwhen circuit simulations are available. Beyond the classically tractable\nregime, the cross entropy can be extrapolated and compared with theoretical\nestimates of circuit fidelity to define a practical quantum supremacy test.",
+         "year": "2016",
+         "citations": 0,
+         "id": 208335457201269622
+      },
+      {
+         "paper_id": "1801.00862v3",
+         "title": "Quantum Computing in the NISQ era and beyond",
+         "authors": [
+            "John Preskill"
+         ],
+         "abstract": "Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the\nnear future. Quantum computers with 50-100 qubits may be able to perform tasks\nwhich surpass the capabilities of today's classical digital computers, but\nnoise in quantum gates will limit the size of quantum circuits that can be\nexecuted reliably. NISQ devices will be useful tools for exploring many-body\nquantum physics, and may have other useful applications, but the 100-qubit\nquantum computer will not change the world right away --- we should regard it\nas a significant step toward the more powerful quantum technologies of the\nfuture. Quantum technologists should continue to strive for more accurate\nquantum gates and, eventually, fully fault-tolerant quantum computing.",
+         "year": "2018",
+         "citations": 0,
+         "id": 471143674760440845
+      },
+      {
+         "paper_id": "2209.06841",
+         "title": "The Future of Quantum Computing with Superconducting Qubits",
+         "authors": [
+            "Sergey Bravyi",
+            "Oliver Dial",
+            "Jay M. Gambetta",
+            "Dario Gil",
+            "Zaira Nazario"
+         ],
+         "abstract": "For the first time in history, we are seeing a branching point in computing\nparadigms with the emergence of quantum processing units (QPUs). Extracting the\nfull potential of computation and realizing quantum algorithms with a\nsuper-polynomial speedup will most likely require major advances in quantum\nerror correction technology. Meanwhile, achieving a computational advantage in\nthe near term may be possible by combining multiple QPUs through circuit\nknitting techniques, improving the quality of solutions through error\nsuppression and mitigation, and focusing on heuristic versions of quantum\nalgorithms with asymptotic speedups. For this to happen, the performance of\nquantum computing hardware needs to improve and software needs to seamlessly\nintegrate quantum and classical processors together to form a new architecture\nthat we are calling quantum-centric supercomputing. Long term, we see hardware\nthat exploits qubit connectivity in higher than 2D topologies to realize more\nefficient quantum error correcting codes, modular architectures for scaling\nQPUs and parallelizing workloads, and software that evolves to make the\nintricacies of the technology invisible to the users and realize the goal of\nubiquitous, frictionless quantum computing.",
+         "year": "2022",
+         "citations": 68,
+         "id": 153987216429838307
+      },
+      {
+         "paper_id": "1801.00862",
+         "title": "Quantum Computing in the NISQ era and beyond",
+         "authors": [
+            "John Preskill"
+         ],
+         "abstract": "Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the\nnear future. Quantum computers with 50-100 qubits may be able to perform tasks\nwhich surpass the capabilities of today's classical digital computers, but\nnoise in quantum gates will limit the size of quantum circuits that can be\nexecuted reliably. NISQ devices will be useful tools for exploring many-body\nquantum physics, and may have other useful applications, but the 100-qubit\nquantum computer will not change the world right away --- we should regard it\nas a significant step toward the more powerful quantum technologies of the\nfuture. Quantum technologists should continue to strive for more accurate\nquantum gates and, eventually, fully fault-tolerant quantum computing.",
+         "year": "2018",
+         "citations": 4546,
+         "id": 186257930939058954
+      },
+      {
+         "paper_id": "1206.0785v1",
+         "title": "The Quantum Frontier",
+         "authors": [
+            "Joseph F. Fitzsimons",
+            "Eleanor G. Rieffel",
+            "Valerio Scarani"
+         ],
+         "abstract": "The success of the abstract model of computation, in terms of bits, logical\noperations, programming language constructs, and the like, makes it easy to\nforget that computation is a physical process. Our cherished notions of\ncomputation and information are grounded in classical mechanics, but the\nphysics underlying our world is quantum. In the early 80s researchers began to\nask how computation would change if we adopted a quantum mechanical, instead of\na classical mechanical, view of computation. Slowly, a new picture of\ncomputation arose, one that gave rise to a variety of faster algorithms, novel\ncryptographic mechanisms, and alternative methods of communication. Small\nquantum information processing devices have been built, and efforts are\nunderway to build larger ones. Even apart from the existence of these devices,\nthe quantum view on information processing has provided significant insight\ninto the nature of computation and information, and a deeper understanding of\nthe physics of our universe and its connections with computation.\n  We start by describing aspects of quantum mechanics that are at the heart of\na quantum view of information processing. We give our own idiosyncratic view of\na number of these topics in the hopes of correcting common misconceptions and\nhighlighting aspects that are often overlooked. A number of the phenomena\ndescribed were initially viewed as oddities of quantum mechanics. It was\nquantum information processing, first quantum cryptography and then, more\ndramatically, quantum computing, that turned the tables and showed that these\noddities could be put to practical effect. It is these application we describe\nnext. We conclude with a section describing some of the many questions left for\nfuture work, especially the mysteries surrounding where the power of quantum\ninformation ultimately comes from.",
+         "year": "2012",
+         "citations": 0,
+         "id": 311131469367912104
+      },
+      {
+         "paper_id": "1312.4455v1",
+         "title": "The universe as quantum computer",
+         "authors": [
+            "Seth Lloyd"
+         ],
+         "abstract": "This article reviews the history of digital computation, and investigates\njust how far the concept of computation can be taken. In particular, I address\nthe question of whether the universe itself is in fact a giant computer, and if\nso, just what kind of computer it is. I will show that the universe can be\nregarded as a giant quantum computer. The quantum computational model of the\nuniverse explains a variety of observed phenomena not encompassed by the\nordinary laws of physics. In particular, the model shows that the the quantum\ncomputational universe automatically gives rise to a mix of randomness and\norder, and to both simple and complex systems.",
+         "year": "2013",
+         "citations": 0,
+         "id": 841738489186214549
+      },
+      {
+         "paper_id": "1501.00011v1",
+         "title": "Why now is the right time to study quantum computing",
+         "authors": [
+            "Aram W. Harrow"
+         ],
+         "abstract": "Quantum computing is a good way to justify difficult physics experiments. But\nuntil quantum computers are built, do computer scientists need to know anything\nabout quantum information? In fact, quantum computing is not merely a recipe\nfor new computing devices, but a new way of looking at the world that has been\nastonishingly intellectually productive. In this article, I'll talk about where\nquantum computing came from, what it is, and what we can learn from it.",
+         "year": "2014",
+         "citations": 0,
+         "id": 164243657720136436
+      },
+      {
+         "paper_id": "1709.06678",
+         "title": "A blueprint for demonstrating quantum supremacy with superconducting\n  qubits",
+         "authors": [
+            "C. Neill",
+            "P. Roushan",
+            "K. Kechedzhi",
+            "S. Boixo",
+            "S. V. Isakov",
+            "V. Smelyanskiy",
+            "R. Barends",
+            "B. Burkett",
+            "Y. Chen",
+            "Z. Chen",
+            "B. Chiaro",
+            "A. Dunsworth",
+            "A. Fowler",
+            "B. Foxen",
+            "R. Graff",
+            "E. Jeffrey",
+            "J. Kelly",
+            "E. Lucero",
+            "A. Megrant",
+            "J. Mutus",
+            "M. Neeley",
+            "C. Quintana",
+            "D. Sank",
+            "A. Vainsencher",
+            "J. Wenner",
+            "T. C. White",
+            "H. Neven",
+            "J. M. Martinis"
+         ],
+         "abstract": "Fundamental questions in chemistry and physics may never be answered due to\nthe exponential complexity of the underlying quantum phenomena. A desire to\novercome this challenge has sparked a new industry of quantum technologies with\nthe promise that engineered quantum systems can address these hard problems. A\nkey step towards demonstrating such a system will be performing a computation\nbeyond the capabilities of any classical computer, achieving so-called quantum\nsupremacy. Here, using 9 superconducting qubits, we demonstrate an immediate\npath towards quantum supremacy. By individually tuning the qubit parameters, we\nare able to generate thousands of unique Hamiltonian evolutions and probe the\noutput probabilities. The measured probabilities obey a universal distribution,\nconsistent with uniformly sampling the full Hilbert-space. As the number of\nqubits in the algorithm is varied, the system continues to explore the\nexponentially growing number of states. Combining these large datasets with\ntechniques from machine learning allows us to construct a model which\naccurately predicts the measured probabilities. We demonstrate an application\nof these algorithms by systematically increasing the disorder and observing a\ntransition from delocalized states to localized states. By extending these\nresults to a system of 50 qubits, we hope to address scientific questions that\nare beyond the capabilities of any classical computer.",
+         "year": "2017",
+         "citations": 400,
+         "id": 160905676816331819
+      },
+      {
+         "paper_id": "1710.05867v2",
+         "title": "Breaking the 49-Qubit Barrier in the Simulation of Quantum Circuits",
+         "authors": [
+            "Edwin Pednault",
+            "John A. Gunnels",
+            "Giacomo Nannicini",
+            "Lior Horesh",
+            "Thomas Magerlein",
+            "Edgar Solomonik",
+            "Robert Wisnieff"
+         ],
+         "abstract": "With the current rate of progress in quantum computing technologies, systems\nwith more than 50 qubits will soon become reality. Computing ideal quantum\nstate amplitudes for devices of such and larger sizes is a fundamental step to\nassess their fidelity, but memory requirements for such calculations on\nclassical computers grow exponentially. In this study, we present a new\napproach for this task that extends the boundaries of what can be computed on a\nclassical system. We present results obtained from a calculation of the\ncomplete set of output amplitudes of a universal random circuit with depth 27\nin a 2D lattice of $7 \\times 7$ qubits, and an arbitrarily selected slice of\n$2^{37}$ amplitudes of a universal random circuit with depth 23 in a 2D lattice\nof $8 \\times 7$ qubits. Combining our methodology with other decomposition\ntechniques found in the literature, we show that we can simulate $7 \\times\n7$-qubit random circuits to arbitrary depth by leveraging secondary storage.\nThese calculations were thought to be impossible due to memory requirements;\nour methodology requires memory within the limits of existing classical\ncomputers.",
+         "year": "2017",
+         "citations": 0,
+         "id": 329863647705803003
+      },
+      {
+         "paper_id": "2209.05549",
+         "title": "Quantum Physics from Number Theory",
+         "authors": [
+            "Tim Palmer"
+         ],
+         "abstract": "The properties which give quantum mechanics its unique character - unitarity,\ncomplementarity, non-commutativity, uncertainty, nonlocality - derive from the\nalgebraic structure of Hermitian operators acting on the wavefunction in\ncomplex Hilbert space. Because of this, the wavefunction cannot be shown to\ndescribe an ensemble of deterministic states where uncertainty simply reflects\na lack of knowledge about which ensemble member describes reality. This has led\nto endless debates about the ontology of quantum mechanics.\n  Here we derive these same quantum properties from number theoretic attributes\nof trigonometric functions applied to an explicitly ensemble-based\nrepresentation of discretised complex Hilbert states. To avoid fine-tuning, the\nmetric on state space must be $p$-adic rather than Euclidean where $1/p$\ndetermines the fineness of the discretisation. This hints at both the existence\nof an underpinning fractal state-space geometry onto which states of the world\nare constrained. In this model, violation of Bell inequalities is a\nmanifestation of this geometric constraint and does not imply a breakdown of\nlocal space-time causality.\n  Because the discretised wavefunction describes an ensemble of states, there\nis no collapse of the wavefunction. Instead measurement describes a nonlinear\nclustering of state-space trajectories on the state-space geometry. In this\nmodel, systems with mass greater than the Planck mass will not exhibit quantum\nproperties and instead behave classically. The geometric constraint suggests\nthat the exponential increase in the size of state space with qubit number may\nbreak down with qubit numbers as small as a few hundred. Quantum mechanics is\nitself a singular limit of this number-theoretic model at $p=\\infty$. A\nmodification of general relativity, consistent with this discretised model of\nquantum physics, is proposed.",
+         "year": "2022",
+         "citations": 1,
+         "id": 662089065638338854
+      },
+      {
+         "paper_id": "1809.01639",
+         "title": "Making better sense of quantum mechanics",
+         "authors": [
+            "N. David Mermin"
+         ],
+         "abstract": "We still lack any consensus about what one is actually talking about as one\nuses quantum mechanics. There is a gap between the abstract terms in which the\ntheory is couched and the phenomena the theory enables each of us to account\nfor so well. Because it has no practical consequences for how we each use\nquantum mechanics to deal with physical problems, this cognitive dissonance has\nmanaged to coexist with the quantum theory from the very beginning. The absence\nof conceptual clarity for almost a century suggests that the problem might lie\nin some implicit misconceptions about the nature of scientific explanation that\nare deeply held by virtually all physicists, but are rarely explicitly\nacknowledged. I describe here such unvoiced but widely shared assumptions.\nRejecting them clarifies and unifies a range of obscure remarks about quantum\nmechanics made almost from the beginning by some of the giants of physics, many\nof whom are held to be in deep disagreement. This new view of physics requires\nphysicists to think about science in an unfamiliar way. My primary purpose is\nto explain the new perspective and urge that it be taken seriously. My\nsecondary aims are to explain why this perspective differs significantly from\nwhat Bohr, Heisenberg, and Pauli had been saying from the very beginning, and\nwhy it is not solipsism, as some have maintained. To emphasize that this is a\ngeneral view of science, and not just of quantum mechanics, I apply it to a\nlong-standing puzzle in classical physics: the apparent inability of physics to\ngive any meaning to \"Now\" --- the present moment.",
+         "year": "2018",
+         "citations": 45,
+         "id": 508571525031076241
+      },
+      {
+         "paper_id": "1803.07098",
+         "title": "\"Thinking Quantum\": Lectures on Quantum Theory",
+         "authors": [
+            "Barak Shoshany"
+         ],
+         "abstract": "We present a conceptually clear introduction to quantum theory at a level\nsuitable for exceptional high-school students. It is entirely self-contained\nand no university-level background knowledge is required. The lectures were\ngiven over four days, four hours each day, as part of the International Summer\nSchool for Young Physicists (ISSYP) at Perimeter Institute, Waterloo, Ontario,\nCanada. On the first day the students were given all the relevant mathematical\nbackground from linear algebra and probability theory. On the second day, we\nused the acquired mathematical tools to define the full quantum theory in the\ncase of a finite Hilbert space and discuss some consequences such as\nentanglement, Bell's theorem and the uncertainty principle. Finally, on days\nthree and four we presented an overview of advanced topics related to\ninfinite-dimensional Hilbert spaces, including canonical and path integral\nquantization, the quantum harmonic oscillator, quantum field theory, the\nStandard Model, and quantum gravity.",
+         "year": "2018",
+         "citations": 0,
+         "id": 318139561924678274
+      },
+      {
+         "paper_id": "1007.4184",
+         "title": "An Introductory Course on Quantum Mechanics",
+         "authors": [
+            "Bram Gaasbeek"
+         ],
+         "abstract": "This is a very gentle introductory course on quantum mechanics aimed at the\nfirst years of the undergraduate level. The basic concepts are introduced, with\nmany applications and illustrations. Contains 12 short chapters of equal\nlength, ideal for a one term course. The license allows reuse of figures and\ntext under the Attribution-Noncommercial-ShareAlike conditions.",
+         "year": "2010",
+         "citations": 0,
+         "id": 589243239291281883
+      },
+      {
+         "paper_id": "2210.02868",
+         "title": "Hello Quantum World! A rigorous but accessible first-year university\n  course in quantum information science",
+         "authors": [
+            "Sophia E. Economou",
+            "Edwin Barnes"
+         ],
+         "abstract": "Addressing workforce shortages within the Quantum Information Science and\nEngineering (QISE) community requires attracting and retaining students from\ndiverse backgrounds early on in their undergraduate education. Here, we\ndescribe a course we developed called Hello Quantum World! that introduces a\nbroad range of fundamental quantum information and computation concepts in a\nrigorous way but without requiring any knowledge of mathematics beyond\nhigh-school algebra nor any prior knowledge of quantum mechanics. Some of the\ntopics covered include superposition, entanglement, quantum gates,\nteleportation, quantum algorithms, and quantum error correction. The course is\ndesigned for first-year undergraduate students, both those pursuing a degree in\nQISE and those who are seeking to be `quantum-aware'.",
+         "year": "2022",
+         "citations": 3,
+         "id": 272779524385034387
+      },
+      {
+         "paper_id": "1201.4234",
+         "title": "An Introduction to Quantum Mechanics ... for those who dwell in the\n  macroscopic world",
+         "authors": [
+            "Antonio Barletta"
+         ],
+         "abstract": "There is a huge number of excellent and comprehensive textbooks on quantum\nmechanics. They mainly differ for the approach, more or less oriented to the\nformalism rather than to the phenomenology, as well as for the topics covered.\nThese lectures have been based mainly on the classical textbook by Gasiorowicz\n(1974). I must confess that the main reason for my choice of Gasiorowicz (1974)\nis affective, as it was the textbook where I first learned the basic principles\nof quantum mechanics. Beyond my personal taste, I now recognize that\nGasiorowicz (1974) is still a very good textbook on quantum mechanics, with a\nrigorous theoretical approach accompanied by a wide collection of applications.\nIf the textbook by Gasiorowicz was my main basis, I have taken much also from\nother textbooks such as Phillips (2003), as well as from the excellent\nclassical textbook by Dirac (1981). In order to avoid complications in the\nmathematics and in the notation, the topic is presented in these notes with\nreference to one-dimensional systems, with just a few marginal extensions to\nthe three-dimensional formulation.",
+         "year": "2012",
+         "citations": 2,
+         "id": 284896266578727581
+      },
+      {
+         "paper_id": "1806.09958",
+         "title": "Understanding quantum physics through simple experiments: from\n  wave-particle duality to Bell's theorem",
+         "authors": [
+            "Ish Dhand",
+            "Adam D'Souza",
+            "Varun Narasimhachar",
+            "Neil Sinclair",
+            "Stephen Wein",
+            "Parisa Zarkeshian",
+            "Alireza Poostindouz",
+            "Christoph Simon"
+         ],
+         "abstract": "Quantum physics, which describes the strange behavior of light and matter at\nthe smallest scales, is one of the most successful descriptions of reality, yet\nit is notoriously inaccessible. Here we provide an approachable explanation of\nquantum physics using simple thought experiments. We derive all relevant\nquantum predictions using minimal mathematics, without introducing the advanced\ncalculations that are typically used to describe quantum physics. We focus on\nthe two key surprises of quantum physics, namely wave-particle duality, a term\nthat was introduced to capture the fact that single quantum particles in some\nrespects behave like waves and in other respects like particles, and\nentanglement, which applies to two or more quantum particles and brings out the\ninherent contradiction between quantum physics and seemingly obvious\nassumptions regarding the nature of reality. Following arguments originally\nmade by John Bell and Lucien Hardy, we show that the so-called local hidden\nvariables are inadequate at explaining the behavior of entangled quantum\nparticles. This means that one either has to give up on hidden variables, i.e.,\nthe idea that the outcomes of measurements on quantum particles are determined\nbefore an experiment is actually carried out, or one has to relinquish the\nprinciple of locality, which requires that no causal influences should be\nfaster than the speed of light and is a cornerstone of Einstein's theory of\nrelativity. Finally, we describe how these remarkable predictions of quantum\nphysics have been confirmed in experiments. We have successfully used the\npresent approach in a course that is open to all undergraduate students at the\nUniversity of Calgary, without any prerequisites in mathematics or physics.",
+         "year": "2018",
+         "citations": 4,
+         "id": 282176271712269032
+      },
+      {
+         "paper_id": "1806.09958v1",
+         "title": "Understanding quantum physics through simple experiments: from\n  wave-particle duality to Bell's theorem",
+         "authors": [
+            "Ish Dhand",
+            "Adam D'Souza",
+            "Varun Narasimhachar",
+            "Neil Sinclair",
+            "Stephen Wein",
+            "Parisa Zarkeshian",
+            "Alireza Poostindouz",
+            "Christoph Simon"
+         ],
+         "abstract": "Quantum physics, which describes the strange behavior of light and matter at\nthe smallest scales, is one of the most successful descriptions of reality, yet\nit is notoriously inaccessible. Here we provide an approachable explanation of\nquantum physics using simple thought experiments that deal with one- and\ntwo-particle interference. We derive all relevant quantum predictions using\nminimal mathematics, without introducing the advanced calculations that are\ntypically used to describe quantum physics. We focus on the two key surprises\nof quantum physics, namely wave-particle duality, which deals with the\ncounter-intuitive behavior of single quantum particles, and entanglement, which\napplies to two or more quantum particles and brings out the inherent\ncontradiction between quantum physics and seemingly obvious assumptions\nregarding the nature of reality. We employ Hardy's version of Bell's theorem to\nshow that so-called local hidden variables are inadequate at explaining the\nbehavior of entangled quantum particles. This means that one either has to give\nup on hidden variables, i.e. the idea that the outcomes of measurements on\nquantum particles are determined before an experiment is actually carried out,\nor one has to relinquish the principle of locality, which requires that no\ncausal influences should be faster than the speed of light. Finally, we\ndescribe how these remarkable predictions of quantum physics have been\nconfirmed in experiments. We have successfully used the present approach in a\ncourse that is open to all undergraduate students at the University of Calgary,\nwithout any prerequisites in mathematics or physics.",
+         "year": "2018",
+         "citations": 0,
+         "id": 180728291025506471
+      },
+      {
+         "paper_id": "1806.09958v2",
+         "title": "Understanding quantum physics through simple experiments: from\n  wave-particle duality to Bell's theorem",
+         "authors": [
+            "Ish Dhand",
+            "Adam D'Souza",
+            "Varun Narasimhachar",
+            "Neil Sinclair",
+            "Stephen Wein",
+            "Parisa Zarkeshian",
+            "Alireza Poostindouz",
+            "Christoph Simon"
+         ],
+         "abstract": "Quantum physics, which describes the strange behavior of light and matter at\nthe smallest scales, is one of the most successful descriptions of reality, yet\nit is notoriously inaccessible. Here we provide an approachable explanation of\nquantum physics using simple thought experiments. We derive all relevant\nquantum predictions using minimal mathematics, without introducing the advanced\ncalculations that are typically used to describe quantum physics. We focus on\nthe two key surprises of quantum physics, namely wave-particle duality, a term\nthat was introduced to capture the fact that single quantum particles in some\nrespects behave like waves and in other respects like particles, and\nentanglement, which applies to two or more quantum particles and brings out the\ninherent contradiction between quantum physics and seemingly obvious\nassumptions regarding the nature of reality. Following arguments originally\nmade by John Bell and Lucien Hardy, we show that the so-called local hidden\nvariables are inadequate at explaining the behavior of entangled quantum\nparticles. This means that one either has to give up on hidden variables, i.e.,\nthe idea that the outcomes of measurements on quantum particles are determined\nbefore an experiment is actually carried out, or one has to relinquish the\nprinciple of locality, which requires that no causal influences should be\nfaster than the speed of light and is a cornerstone of Einstein's theory of\nrelativity. Finally, we describe how these remarkable predictions of quantum\nphysics have been confirmed in experiments. We have successfully used the\npresent approach in a course that is open to all undergraduate students at the\nUniversity of Calgary, without any prerequisites in mathematics or physics.",
+         "year": "2018",
+         "citations": 0,
+         "id": 258878265659945649
+      },
+      {
+         "paper_id": "1312.1463",
+         "title": "What we can learn about quantum physics from a single qubit",
+         "authors": [
+            "W. Dür",
+            "S. Heusler"
+         ],
+         "abstract": "We present an approach for teaching quantum physics at high school level\nbased on the simplest quantum system - the single quantum bit (qubit). We show\nthat many central concepts of quantum mechanics, including the superposition\nprinciple, the stochastic behavior and state change under measurements as well\nas the Heisenberg uncertainty principle can be understood using simple\nmathematics, and can be illustrated using catchy visualizations. We discuss\nabstract features of a qubit in general, and consider possible physical\nrealizations as well as various applications, e.g. in quantum cryptography.",
+         "year": "2013",
+         "citations": 10,
+         "id": 174486646159042665
       }
    ]
 }
